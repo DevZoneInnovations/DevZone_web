@@ -1,0 +1,36 @@
+.projects {
+  background: linear-gradient(0.25turn, #00081c, #1a2133, #262d3e);
+}
+
+.containerBrancoProjects {
+  background-color: #d8d9dc;
+}
+
+.containerBrancoProjects h1 {
+  text-align: center;
+  padding-top: 30px;
+  font-family: "Kameron", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+}
+
+.containerBrancoProjects p {
+  text-align: center;
+  font-family: "Kameron", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.primeiroParagrafo {
+  padding-top: 30px;
+}
+
+.ultimoParagrafo {
+  padding-bottom: 70px;
+}
+
+.grid-projects {
+  padding-bottom: 60px;
+}

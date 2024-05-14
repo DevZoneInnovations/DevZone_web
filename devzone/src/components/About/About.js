@@ -2,7 +2,7 @@ import "./About.css";
 
 function About() {
   return (
-    <div className="about">
+    <div className="about" id="sobre">
       <h1>Quem é DevZone</h1>
       <div className="paragrafo">
         <p>

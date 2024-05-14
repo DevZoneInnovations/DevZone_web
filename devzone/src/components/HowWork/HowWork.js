@@ -5,7 +5,7 @@ import criando from "./criando.png";
 
 function HowWork() {
   return (
-    <div className="howWork">
+    <div className="howWork" id="howWork">
       <div className="containerBranco">
         <div className="container">
           <div className="imagem">

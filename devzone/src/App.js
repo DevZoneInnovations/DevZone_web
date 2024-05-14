@@ -2,6 +2,12 @@ import zap_img from "./whatsapp.png";
 import "./App.css";
 import About from "./components/About/About";
 import HowWork from "./components/HowWork/HowWork";
+import WhyDevZone from "./components/WhyDevZone/WhyDevZone";
+import Projects from "./components/Projects/Projects";
+import Plans from "./components/Plans/Plans";
+import PlansUpdate from "./components/PlansUpdate/PlansUpdate";
+import Footer from "./components/Footer/Footer";
+import ExtraPlans from "./components/ExtraPlans/ExtraPlans";
 
 function App() {
   return (
@@ -14,6 +20,12 @@ function App() {
       </div>
       <About />
       <HowWork />
+      <WhyDevZone />
+      <Projects />
+      <Plans />
+      <PlansUpdate />
+      <ExtraPlans />
+      <Footer />
     </div>
   );
 }
