@@ -1,0 +1,132 @@
+.footer {
+  padding-top: 30px;
+  background: linear-gradient(0.25turn, #00081cef, #1a2133f0, #262d3ef6);
+}
+
+.containerFooter {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "empresa navegação parceiros";
+}
+
+.empresa {
+  grid-area: empresa;
+}
+
+.redesSociais a {
+  text-decoration: none;
+}
+
+.redesSociais a img {
+  margin-left: 60px;
+  padding: 20px;
+}
+
+.cnpj {
+  padding-bottom: 20px;
+  padding-left: 80px;
+  font-family: "Kameron", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: #bdbdbd;
+}
+
+.navegação {
+  grid-area: navegação;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navegação ul li a {
+  font-family: "Kameron", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: #bdbdbd;
+  text-decoration: none;
+}
+
+.navegação ul h4 {
+  text-align: center;
+  font-family: "Kameron", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: #ffffff;
+  padding-bottom: 30px;
+}
+
+.navegação ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.parceiros {
+  grid-area: parceiros;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Kameron", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.parceiros ul li a {
+  text-decoration: none;
+  color: #cbcbcb;
+}
+
+.parceiros ul {
+  list-style: none;
+}
+
+.parceiros ul h4 {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Kameron", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+
+/*Tablets*/
+/*não é necessario mudança
+
+@media screen and (max-width: 1024px) {
+}
+
+*/
+
+/*Celulares*/
+@media screen and (max-width: 430px) {
+  .containerFooter {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "empresa";
+  }
+
+  .redesSociais a img {
+    margin-left: 50px;
+    padding: 30px;
+  }
+
+  .navegação {
+    display: none;
+  }
+
+  .parceiros {
+    display: none;
+  }
+
+  .logo-empresa {
+    display: none;
+  }
+}

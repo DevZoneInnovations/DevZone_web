@@ -5,7 +5,7 @@ import criando from "./criando.png";
 
 function HowWork() {
   return (
-    <div className="howWork">
+    <div className="howWork" id="howWork">
       <div className="containerBranco">
         <div className="container">
           <div className="imagem">
@@ -47,13 +47,12 @@ function HowWork() {
           <h3>Hora de botar mão na massa</h3>
           <div className="paragrafoContainer">
             <p>
-              Essa etapa iremos partir para a construção oficial do seu site
-              onde iremos codificar igual ao protótipo. Importante lembrar que
-              essa etapa só é iniciada quando todas as outras forem completas,
-              porque usaremos o seu protótipo para a construção oficial do seu
-              site. A partir desse ponto não é recomendado haver alterações no
-              design do site, por isso usamos a etapa do protótipo para deixar
-              tudo esclarecido.{" "}
+              Essa etapa iremos partir para a construção oficial do seu site.
+              Importante lembrar que essa etapa só é iniciada quando todas as
+              outras forem completas, porque usaremos o seu protótipo para a
+              construção oficial do seu site. A partir desse ponto não é
+              recomendado haver alterações no design do site, por isso usamos a
+              etapa do protótipo para deixar tudo esclarecido.
             </p>
           </div>
         </div>
