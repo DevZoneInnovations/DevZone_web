@@ -95,3 +95,38 @@
   font-size: 25px;
   padding-bottom: 30px;
 }
+
+/*Tablets*/
+/*não é necessario mudança
+
+@media screen and (max-width: 1024px) {
+}
+
+*/
+
+/*Celulares*/
+@media screen and (max-width: 430px) {
+  .containerFooter {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "empresa";
+  }
+
+  .redesSociais a img {
+    margin-left: 50px;
+    padding: 30px;
+  }
+
+  .navegação {
+    display: none;
+  }
+
+  .parceiros {
+    display: none;
+  }
+
+  .logo-empresa {
+    display: none;
+  }
+}

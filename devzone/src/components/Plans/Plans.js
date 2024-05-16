@@ -16,7 +16,7 @@ function Plans() {
             <li>Desenvolvimento nas 3 etapas;</li>
             <li>Suporte técnico por 30 dias após o lançamento;</li>
             <li>Desenvolvimento com até 5 paginas;</li>
-            <li>Design simples;</li>
+            <li>Design simples e responsivo;</li>
             <li>Atualizações mediante pagamento;</li>
             <li>
               <b className="negrito-essential">
@@ -62,7 +62,7 @@ function Plans() {
           </div>
           <ul>
             <li>Desenvolvimento nas 3 etapas;</li>
-            <li>Suporte técnico por 6 meses após o lançamento;</li>
+            <li>Suporte técnico por 3 meses após o lançamento;</li>
             <li>Desenvolvimento com até 20 paginas;</li>
             <li>Design moderno e responsivo;</li>
             <li>Atualizações garantidas por 90 dias após o lançamento;</li>

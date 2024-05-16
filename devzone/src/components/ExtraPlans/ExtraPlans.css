@@ -18,7 +18,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  grid-template-areas: "creative bubble";
+  grid-template-areas: "bubble creative";
   column-gap: 30px;
   padding-bottom: 50px;
   padding-left: 50px;
@@ -44,7 +44,7 @@
 }
 
 .titulo-bubble h3 {
-  color: #b3ffe6;
+  color: #a0f8da;
   font-family: "Kameron", serif;
   font-weight: 400;
   font-style: normal;
@@ -52,7 +52,7 @@
 }
 
 .titulo-bubble p {
-  color: #b3ffe6;
+  color: #a0f8da;
   font-family: "Kameron", serif;
   font-weight: 400;
   font-style: normal;
@@ -169,4 +169,50 @@
 .btn-creative button:hover {
   background: linear-gradient(0deg, rgb(0, 0, 0), rgba(0, 0, 0, 0));
   color: #dc143c;
+}
+
+/*Tablets*/
+
+/*por enquanto não é necessário
+
+@media screen and (max-width: 1024px) {
+}
+
+*/
+
+/*Celulares*/
+@media screen and (max-width: 430px) {
+  .extra h1 {
+    font-size: 30px;
+  }
+
+  .grid-plansExtra {
+    overflow-x: scroll;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "bubble creative";
+    column-gap: 30px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .planoBubbleZone {
+    width: 450px;
+  }
+
+  .planoBubbleZone ul li {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .planoCreativeZone {
+    width: 450px;
+  }
+
+  .planoCreativeZone ul li {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }

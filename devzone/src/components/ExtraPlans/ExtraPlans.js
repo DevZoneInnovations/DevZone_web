@@ -9,14 +9,14 @@ function ExtraPlans() {
           <div className="titulo-bubble">
             <h3>Bubble Zone</h3>
             <p>
-              <b>R$ 85,00</b>
+              <b>R$ 50,00</b>
             </p>
           </div>
           <ul>
             <li>
-              Criação de uma
-              <b className="negrito-bubble"> Landing Page personalizada</b> para
-              suas redes sociais
+              Criação de um
+              <b className="negrito-bubble"> LinkMe personalizado</b> para suas
+              redes sociais;
             </li>
             <li>Desenvolvimento nas 3 etapas;</li>
             <li>Suporte técnico por 30 dias após o lançamento;</li>
@@ -38,9 +38,9 @@ function ExtraPlans() {
           </div>
           <ul>
             <li>
-              Criação de uma
-              <b className="negrito-creative"> Logotipo personalizada</b> para
-              suas redes sociais
+              Criação de três
+              <b className="negrito-creative"> Logotipos personalizadas</b> para
+              suas redes sociais;
             </li>
             <li>Desenvolvimento nas 3 etapas;</li>
 

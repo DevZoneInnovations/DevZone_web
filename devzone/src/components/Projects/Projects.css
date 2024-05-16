@@ -22,7 +22,6 @@
   font-style: normal;
   font-size: 24px;
 }
-
 .primeiroParagrafo {
   padding-top: 30px;
 }
@@ -33,4 +32,30 @@
 
 .grid-projects {
   padding-bottom: 60px;
+}
+
+/*Tablets*/
+@media screen and (max-width: 1024px) {
+  .containerBrancoProjects h1 {
+    font-size: 30px;
+  }
+
+  .containerBrancoProjects p {
+    font-size: 20px;
+    color: #ff8000;
+  }
+}
+
+/*Celulares*/
+@media screen and (max-width: 430px) {
+  .containerBrancoProjects h1 {
+    font-size: 25px;
+  }
+
+  .containerBrancoProjects p {
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #ff8000;
+  }
 }

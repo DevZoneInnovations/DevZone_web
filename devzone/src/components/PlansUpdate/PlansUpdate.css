@@ -15,7 +15,6 @@
 }
 
 .planoGuardianZone {
-  grid-area: elite;
   border: 3px solid #fffff0;
   border-radius: 20px;
   margin-left: 150px;
@@ -88,4 +87,34 @@
 .btn-guardian button:hover {
   background: linear-gradient(0deg, rgb(0, 0, 0), rgba(0, 0, 0, 0));
   color: #ffffff;
+}
+
+/*Tablets*/
+
+/*por enquanto não é necessário
+
+@media screen and (max-width: 1024px) {
+}
+
+*/
+
+/*Celulares*/
+@media screen and (max-width: 430px) {
+  .plansUpadate h1 {
+    font-size: 30px;
+  }
+
+  .planoGuardianZone {
+    border: 3px solid #fffff0;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    height: 100%;
+    width: 450px;
+  }
+
+  .planoGuardianZone ul li {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }

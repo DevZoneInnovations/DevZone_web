@@ -52,11 +52,57 @@
 .paragrafoContainer {
   margin-left: 50px;
   margin-right: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 28px;
 }
 
 .container p {
   text-align: center;
   font-size: 22px;
   color: #404040;
+}
+
+/*Tablets*/
+@media screen and (max-width: 1024px) {
+  .containerBranco {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .container h3 {
+    font-size: 25px;
+  }
+
+  .container p {
+    font-size: 18px;
+  }
+}
+
+/*Celulares*/
+@media screen and (max-width: 430px) {
+  .containerBranco {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    overflow-x: scroll;
+  }
+
+  .container {
+    height: 280px;
+    width: 450px;
+  }
+
+  .container h3 {
+    font-size: 20px;
+  }
+
+  .paragrafoContainer {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+  }
+
+  .container p {
+    font-size: 12px;
+  }
 }

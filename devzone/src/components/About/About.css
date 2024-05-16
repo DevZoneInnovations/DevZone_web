@@ -28,3 +28,35 @@
   font-size: 24px;
   padding: 50px;
 }
+
+/*Tablets*/
+@media screen and (max-width: 1024px) {
+  .about h1 {
+    font-size: 32px;
+  }
+
+  .paragrafo {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .paragrafo p {
+    font-size: 20px;
+  }
+}
+
+/*Celulares*/
+@media screen and (max-width: 430px) {
+  .about h1 {
+    font-size: 25px;
+  }
+
+  .paragrafo {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .paragrafo p {
+    font-size: 12px;
+  }
+}
