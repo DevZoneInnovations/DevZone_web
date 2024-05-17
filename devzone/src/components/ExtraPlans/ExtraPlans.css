@@ -79,6 +79,7 @@
 }
 
 .btn-bubble button {
+  color: #000;
   background: linear-gradient(0.25turn, #7fffd4, #bdffe9);
   border: none;
   border-radius: 15px;
@@ -152,6 +153,7 @@
 }
 
 .btn-creative button {
+  color: #000;
   background: linear-gradient(0.25turn, #dc143c, #db526d);
   border: none;
   border-radius: 15px;
@@ -244,6 +246,7 @@
   }
 
   .btn-bubble button {
+    color: #000;
     background: linear-gradient(0.25turn, #7fffd4, #bdffe9);
     border: none;
     border-radius: 15px;
@@ -279,6 +282,7 @@
   }
 
   .btn-creative button {
+    color: #000;
     background: linear-gradient(0.25turn, #dc143c, #db526d);
     border: none;
     border-radius: 15px;

@@ -23,7 +23,9 @@ function ExtraPlans() {
             <li>Atualizações mediante pagamento;</li>
           </ul>
           <div className="btn-bubble">
-            <button>Ver mais</button>
+            <button>
+              <b>Ver mais</b>
+            </button>
           </div>
         </div>
 
@@ -46,7 +48,9 @@ function ExtraPlans() {
             <li>Atualizações mediante pagamento;</li>
           </ul>
           <div className="btn-creative">
-            <button>Ver mais</button>
+            <button>
+              <b>Ver mais</b>
+            </button>
           </div>
         </div>
       </div>
