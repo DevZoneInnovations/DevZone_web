@@ -1,9 +1,5 @@
-.btn-zap a img {
-  position: fixed;
-  width: 70px;
-  height: 70px;
-  top: 50px;
-  right: 50px;
-  border-radius: 50%;
-  z-index: 1000;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }

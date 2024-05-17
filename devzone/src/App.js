@@ -1,4 +1,3 @@
-import zap_img from "./whatsapp.png";
 import "./App.css";
 import About from "./components/About/About";
 import HowWork from "./components/HowWork/HowWork";
@@ -8,16 +7,11 @@ import Plans from "./components/Plans/Plans";
 import PlansUpdate from "./components/PlansUpdate/PlansUpdate";
 import Footer from "./components/Footer/Footer";
 import ExtraPlans from "./components/ExtraPlans/ExtraPlans";
+import ZapButton from "./components/ZapButton/ZapButton";
 
 function App() {
   return (
     <div className="App">
-      {/* Botão flutuante whatsapp */}
-      <div className="btn-zap">
-        <a href="https://wa.me/5511985050470">
-          <img src={zap_img} alt="Whatsapp icone"></img>
-        </a>
-      </div>
       <About />
       <HowWork />
       <WhyDevZone />
@@ -26,6 +20,7 @@ function App() {
       <PlansUpdate />
       <ExtraPlans />
       <Footer />
+      <ZapButton />
     </div>
   );
 }

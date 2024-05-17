@@ -5,11 +5,13 @@ function WhyDevZone() {
   return (
     <div className="whydevzone" id="whyDevZone">
       <h1>Porque escolher a DevZone</h1>
+      <div className="subtitle">
+        <h3>
+          Temos o Profissional Especialista na Tecnologia que Você Precisa
+        </h3>
+      </div>
       <div className="whydevzone-grid">
         <div className="lista">
-          <h3>
-            Temos o Profissional Especialista na Tecnologia que Você Precisa
-          </h3>
           <ul>
             <li>Profissionais especializados</li>
             <li>Processo simplificado</li>

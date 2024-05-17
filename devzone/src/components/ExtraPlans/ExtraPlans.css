@@ -1,6 +1,5 @@
 .extra {
   background: linear-gradient(0.25turn, #00081c, #1a2133, #262d3e);
-  padding-bottom: 60px;
 }
 
 .extra h1 {
@@ -181,7 +180,7 @@
 */
 
 /*Celulares*/
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 470px) {
   .extra h1 {
     font-size: 30px;
   }
@@ -192,14 +191,14 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "bubble creative";
-    column-gap: 30px;
+    column-gap: 20px;
     padding-bottom: 50px;
     padding-left: 20px;
     padding-right: 20px;
   }
 
   .planoBubbleZone {
-    width: 450px;
+    width: 250px;
   }
 
   .planoBubbleZone ul li {
@@ -208,11 +207,88 @@
   }
 
   .planoCreativeZone {
-    width: 450px;
+    width: 250px;
   }
 
   .planoCreativeZone ul li {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .titulo-bubble h3 {
+    font-size: 16px;
+  }
+
+  .titulo-bubble p {
+    font-size: 18px;
+  }
+
+  .negrito-bubble {
+    color: #7fffd472;
+  }
+
+  .planoBubbleZone ul li {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Kameron", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+  }
+
+  .planoBubbleZone ul {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    list-style: none;
+  }
+
+  .btn-bubble button {
+    background: linear-gradient(0.25turn, #7fffd4, #bdffe9);
+    border: none;
+    border-radius: 15px;
+    height: 50px;
+    width: 100%;
+    margin-top: 23px;
+    font-family: "Kameron", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .btn-bubble button:hover {
+    background: linear-gradient(0deg, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+    color: #7fffd4;
+  }
+
+  .titulo-creative h3 {
+    font-size: 16px;
+  }
+
+  .titulo-creative p {
+    font-size: 18px;
+  }
+
+  .negrito-creative {
+    color: #dc143cb6;
+  }
+
+  .planoCreativeZone ul li {
+    font-size: 12px;
+  }
+
+  .btn-creative button {
+    background: linear-gradient(0.25turn, #dc143c, #db526d);
+    border: none;
+    border-radius: 15px;
+    height: 50px;
+    width: 100%;
+    margin-top: 23px;
+    font-family: "Kameron", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    cursor: pointer;
   }
 }

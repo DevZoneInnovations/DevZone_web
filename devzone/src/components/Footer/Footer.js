@@ -1,5 +1,5 @@
 import "./Footer.css";
-import whatsapp from "./whatsapp.png";
+import gmail from "./o-email.png";
 import linkedin from "./logotipo-do-linkedin.png";
 import instagram from "./instagram.png";
 import logo from "./logo-completa.png";
@@ -13,8 +13,8 @@ function Footer() {
             <img src={logo} alt="logo da empresa"></img>
           </div>
           <div className="redesSociais">
-            <a href="https://wa.me/5511985050470">
-              <img src={whatsapp} alt="icone whatsapp"></img>
+            <a href="">
+              <img src={gmail} alt="icone gmail"></img>
             </a>
             <a href="https://www.linkedin.com/in/marcosvclementec/">
               <img src={linkedin} alt="icone linkedin"></img>{" "}
