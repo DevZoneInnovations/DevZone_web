@@ -13,7 +13,7 @@ function Footer() {
             <img src={logo} alt="logo da empresa"></img>
           </div>
           <div className="redesSociais">
-            <a href="">
+            <a href="https://mail.google.com/mail/u/1/#inbox?compose=new">
               <img src={gmail} alt="icone gmail"></img>
             </a>
             <a href="https://www.linkedin.com/in/marcosvclementec/">
