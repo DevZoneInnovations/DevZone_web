@@ -15,7 +15,7 @@ function App() {
       <About />
       <HowWork />
       <WhyDevZone />
-      <Projects />
+      {/* colocar a aba de projetos dps */}
       <Plans />
       <PlansUpdate />
       <ExtraPlans />

@@ -1,5 +1,7 @@
 .whydevzone {
   background: linear-gradient(0.25turn, #00081c, #1a2133, #262d3e);
+  border-bottom: #ffffff solid 2px;
+  /*remover border-bottom*/
 }
 
 .whydevzone h1 {
@@ -18,12 +20,14 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "grid-list grid-img";
-  padding-bottom: 60px;
+  /*acrescentar padding: 60px quando adicionar a aba projetos*/
 }
 
 .lista {
   grid-area: grid-list;
   color: #ffffff;
+  padding-bottom: 20px;
+  /*remover padding-bottom*/
 }
 
 .subtitle h3 {
