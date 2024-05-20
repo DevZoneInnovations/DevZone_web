@@ -46,17 +46,19 @@
 }
 
 /*Celulares*/
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 470px) {
   .about h1 {
     font-size: 25px;
   }
 
   .paragrafo {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
   }
 
   .paragrafo p {
+    text-align: center;
     font-size: 12px;
+    padding: 35px;
   }
 }

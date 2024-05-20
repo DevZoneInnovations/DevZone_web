@@ -1,6 +1,5 @@
 .plansUpadate {
   background: linear-gradient(0.25turn, #00081c, #1a2133, #262d3e);
-  padding-bottom: 40px;
 }
 
 .plansUpadate h1 {
@@ -15,6 +14,9 @@
 }
 
 .planoGuardianZone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   border: 3px solid #fffff0;
   border-radius: 20px;
   margin-left: 150px;
@@ -68,6 +70,7 @@
 }
 
 .btn-guardian button {
+  color: #000;
   background: linear-gradient(
     0.25turn,
     rgba(255, 255, 240),
@@ -99,22 +102,57 @@
 */
 
 /*Celulares*/
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 470px) {
   .plansUpadate h1 {
-    font-size: 30px;
+    font-size: 28px;
   }
 
   .planoGuardianZone {
     border: 3px solid #fffff0;
     border-radius: 20px;
-    margin-left: 20px;
+    margin-left: 15px;
     margin-right: 10px;
     height: 100%;
-    width: 450px;
+    width: 93%;
+  }
+
+  .titulo-guardian h3 {
+    color: #fffff0;
+    font-family: "Kameron", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+  }
+
+  .titulo-guardian p {
+    color: #fffff0;
+    font-family: "Kameron", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
   }
 
   .planoGuardianZone ul li {
+    font-size: 12px;
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .btn-guardian button {
+    color: #000;
+    background: linear-gradient(
+      0.25turn,
+      rgba(255, 255, 240),
+      rgba(255, 255, 240)
+    );
+    border: none;
+    border-radius: 15px;
+    height: 50px;
+    width: 100%;
+    font-family: "Kameron", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    cursor: pointer;
   }
 }

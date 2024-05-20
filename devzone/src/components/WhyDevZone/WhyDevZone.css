@@ -1,12 +1,14 @@
 .whydevzone {
   background: linear-gradient(0.25turn, #00081c, #1a2133, #262d3e);
+  border-bottom: #ffffff solid 2px;
+  /*remover border-bottom*/
 }
 
 .whydevzone h1 {
   color: #ffffff;
   text-align: center;
   padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 30px;
   font-family: "Kameron", serif;
   font-weight: 400;
   font-style: normal;
@@ -18,22 +20,26 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "grid-list grid-img";
-  padding-bottom: 60px;
+  /*acrescentar padding: 60px quando adicionar a aba projetos*/
 }
 
 .lista {
   grid-area: grid-list;
   color: #ffffff;
+  padding-bottom: 20px;
+  /*remover padding-bottom*/
 }
 
-.lista h3 {
+.subtitle h3 {
+  color: #e38f3b;
+  text-align: center;
   font-family: "Kameron", serif;
   font-weight: 400;
   font-style: normal;
-  padding-bottom: 60px;
-  font-size: 30px;
-  margin: 0px 80px;
-  text-align: center;
+  font-size: 28px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 50px;
 }
 
 .lista ul li {
@@ -73,30 +79,42 @@
 }
 
 /*Celulares*/
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 470px) {
   .whydevzone h1 {
     font-size: 25px;
   }
 
   .whydevzone-grid {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-      "grid-list"
-      "grid-img";
+    grid-template-rows: 1fr;
+    grid-template-areas: "grid-list";
   }
 
-  .lista h3 {
-    font-size: 18px;
+  .subtitle h3 {
+    color: #e38f3b;
+    text-align: center;
+    font-family: "Kameron", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 50px;
+  }
+
+  .lista ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   .lista ul li {
     font-size: 12px;
-    margin-left: 170px;
+    margin-left: 10px;
   }
 
   .imagem-lista img {
-    height: 210px;
-    width: 350px;
+    display: none;
   }
 }
