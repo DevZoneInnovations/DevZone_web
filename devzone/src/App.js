@@ -12,15 +12,14 @@ import ZapButton from "./components/ZapButton/ZapButton";
 function App() {
   return (
     <div className="App">
+      <ZapButton />
       <About />
       <HowWork />
       <WhyDevZone />
-      {/* colocar a aba de projetos dps */}
       <Plans />
       <PlansUpdate />
       <ExtraPlans />
       <Footer />
-      <ZapButton />
     </div>
   );
 }
