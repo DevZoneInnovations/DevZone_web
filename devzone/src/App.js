@@ -8,6 +8,8 @@ import PlansUpdate from "./components/PlansUpdate/PlansUpdate";
 import Footer from "./components/Footer/Footer";
 import ExtraPlans from "./components/ExtraPlans/ExtraPlans";
 import ZapButton from "./components/ZapButton/ZapButton";
+import Segurança from "./components/Segurança/Segurança";
+import Footer2 from "./components/Footer2/Footer2";
 
 function App() {
   return (
@@ -16,10 +18,12 @@ function App() {
       <About />
       <HowWork />
       <WhyDevZone />
+      <Segurança />
       <Plans />
       <PlansUpdate />
       <ExtraPlans />
       <Footer />
+      <Footer2 />
     </div>
   );
 }

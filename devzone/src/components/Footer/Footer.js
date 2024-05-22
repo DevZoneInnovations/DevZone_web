@@ -23,9 +23,11 @@ function Footer() {
               <img src={instagram} alt="icone instagram"></img>
             </a>
           </div>
+          {/* 
           <div className="cnpj">
             <p>xx.xxx.xxx/0001-xx</p>
           </div>
+          */}
         </div>
         <div className="navegação">
           <ul>
@@ -58,13 +60,7 @@ function Footer() {
           <ul>
             <h4>Parceiros</h4>
             <li>
-              <a>Empresa tal 1</a>
-            </li>
-            <li>
-              <a>Empresa tal 2</a>
-            </li>
-            <li>
-              <a>Empresa tal 3</a>
+              <a href="https://alnidigital.com/">ALNI Digital</a>
             </li>
           </ul>
         </div>
