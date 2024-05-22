@@ -17,9 +17,11 @@ function PlansUpdate() {
           <li>Renovação de mais 30 dias de suporte técnico;</li>
         </ul>
         <div className="btn-guardian">
-          <button>
-            <b>Ver mais</b>
-          </button>
+          <a href="#">
+            <button>
+              <b>Ver mais</b>
+            </button>
+          </a>
         </div>
       </div>
     </div>

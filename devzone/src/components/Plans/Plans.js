@@ -25,9 +25,11 @@ function Plans() {
             </li>
           </ul>
           <div className="btn-essecial">
-            <button>
-              <b>Ver mais</b>
-            </button>
+            <a href="#">
+              <button>
+                <b>Ver mais</b>
+              </button>
+            </a>
           </div>
         </div>
         <div className="planoPremiumZone">
@@ -48,9 +50,11 @@ function Plans() {
             </li>
           </ul>
           <div className="btn-premium">
-            <button>
-              <b>Ver mais</b>
-            </button>
+            <a href="#">
+              <button>
+                <b>Ver mais</b>
+              </button>
+            </a>
           </div>
         </div>
         <div className="planoEliteZone">
@@ -71,9 +75,11 @@ function Plans() {
             </li>
           </ul>
           <div className="btn-elite">
-            <button>
-              <b>Ver mais</b>
-            </button>
+            <a href="#">
+              <button>
+                <b>Ver mais</b>
+              </button>
+            </a>
           </div>
         </div>
       </div>
