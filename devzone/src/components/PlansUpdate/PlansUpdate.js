@@ -17,7 +17,7 @@ function PlansUpdate() {
           <li>Renovação de mais 30 dias de suporte técnico;</li>
         </ul>
         <div className="btn-guardian">
-          <a href="#">
+          <a href="https://pagina-dev-zone.vercel.app/">
             <button>
               <b>Ver mais</b>
             </button>

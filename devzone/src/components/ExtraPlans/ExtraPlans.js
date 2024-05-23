@@ -23,7 +23,7 @@ function ExtraPlans() {
             <li>Atualizações mediante pagamento;</li>
           </ul>
           <div className="btn-bubble">
-            <a href="#">
+            <a href="https://pagina-dev-zone.vercel.app/">
               <button>
                 <b>Ver mais</b>
               </button>
@@ -50,7 +50,7 @@ function ExtraPlans() {
             <li>Atualizações mediante pagamento;</li>
           </ul>
           <div className="btn-creative">
-            <a href="#">
+            <a href="https://pagina-dev-zone.vercel.app/">
               <button>
                 <b>Ver mais</b>
               </button>

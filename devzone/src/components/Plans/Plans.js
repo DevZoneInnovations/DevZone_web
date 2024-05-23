@@ -25,7 +25,7 @@ function Plans() {
             </li>
           </ul>
           <div className="btn-essecial">
-            <a href="#">
+            <a href="https://pagina-dev-zone.vercel.app/">
               <button>
                 <b>Ver mais</b>
               </button>
@@ -50,7 +50,7 @@ function Plans() {
             </li>
           </ul>
           <div className="btn-premium">
-            <a href="#">
+            <a href="https://pagina-dev-zone.vercel.app/">
               <button>
                 <b>Ver mais</b>
               </button>
@@ -75,7 +75,7 @@ function Plans() {
             </li>
           </ul>
           <div className="btn-elite">
-            <a href="#">
+            <a href="https://pagina-dev-zone.vercel.app/">
               <button>
                 <b>Ver mais</b>
               </button>
