@@ -10,10 +10,12 @@ import ExtraPlans from "./components/ExtraPlans/ExtraPlans";
 import ZapButton from "./components/ZapButton/ZapButton";
 import Segurança from "./components/Segurança/Segurança";
 import Footer2 from "./components/Footer2/Footer2";
+import Inicio from "./components/Inicio/Inicio";
 
 function App() {
   return (
     <div className="App">
+      <Inicio />
       <ZapButton />
       <About />
       <HowWork />

@@ -2,26 +2,41 @@
   background: linear-gradient(0.25turn, #00081c, #1a2133, #262d3e);
 }
 
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .plans h1 {
   color: #ffffff;
   text-align: center;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   font-family: "Kameron", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 48px;
 }
 
+.plans button {
+  font-family: "Kameron", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
 .grid-plans {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: "essencial premium elite";
-  column-gap: 30px;
   padding-bottom: 50px;
   padding-left: 50px;
   padding-right: 50px;
+  display: flex;
+  column-gap: 40px;
 }
 
 /* PLANO ESSENCIAL */
@@ -278,19 +293,14 @@
 /*Tablets*/
 @media screen and (max-width: 1024px) {
   .grid-plans {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-      "essencial premium "
-      "elite elite";
-    column-gap: 20px;
+    flex-direction: column;
+    row-gap: 40px;
     padding-bottom: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   .planoEliteZone {
-    margin-top: 45px;
     height: 464px;
   }
 
@@ -298,22 +308,15 @@
     height: 100%;
   }
 
-  .btn-essecial button {
-    height: 92px;
-  }
-
   .planoPremiumZone {
     height: 100%;
-  }
-
-  .btn-premium button {
-    height: 92px;
   }
 }
 
 /*Celulares*/
 @media screen and (max-width: 470px) {
   .grid-plans {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "essencial premium elite";
@@ -326,6 +329,16 @@
 
   .plans h1 {
     font-size: 30px;
+  }
+
+  .plans .btn-open {
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    cursor: pointer;
   }
 
   /* PLANO ESSENCIAL */

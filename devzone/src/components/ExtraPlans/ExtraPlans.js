@@ -22,13 +22,6 @@ function ExtraPlans() {
             <li>Suporte técnico por 30 dias após o lançamento;</li>
             <li>Atualizações mediante pagamento;</li>
           </ul>
-          <div className="btn-bubble">
-            <a href="https://pagina-dev-zone.vercel.app/">
-              <button>
-                <b>Ver mais</b>
-              </button>
-            </a>
-          </div>
         </div>
 
         <div className="planoCreativeZone">
@@ -49,13 +42,6 @@ function ExtraPlans() {
             <li>Suporte técnico por 30 dias após o lançamento;</li>
             <li>Atualizações mediante pagamento;</li>
           </ul>
-          <div className="btn-creative">
-            <a href="https://pagina-dev-zone.vercel.app/">
-              <button>
-                <b>Ver mais</b>
-              </button>
-            </a>
-          </div>
         </div>
       </div>
     </div>

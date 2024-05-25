@@ -1,0 +1,52 @@
+.inicio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  background: linear-gradient(0.25turn, #00081c, #1a2133, #262d3e);
+  height: 25vh;
+}
+
+.inicio h1 {
+  color: #fff;
+  font-family: "Kameron", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+}
+
+.inicio h1 span {
+  color: rgb(255, 143, 15);
+  font-size: 45px;
+  font-style: bold;
+}
+
+.inicio h1 .span {
+  color: rgb(160, 85, 0);
+}
+
+.inicio img {
+  display: none;
+}
+
+/*Celulares*/
+@media screen and (max-width: 500px) {
+  .inicio h1 {
+    font-size: 25px;
+  }
+
+  .inicio h1 span {
+    color: rgb(255, 143, 15);
+    font-size: 25px;
+  }
+
+  .inicio img {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+  }
+}

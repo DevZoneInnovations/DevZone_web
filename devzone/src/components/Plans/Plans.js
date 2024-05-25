@@ -3,7 +3,9 @@ import "./Plans.css";
 function Plans() {
   return (
     <div className="plans" id="plans">
-      <h1>Planos</h1>
+      <div className="header">
+        <h1>Planos</h1>
+      </div>
       <div className="grid-plans">
         <div className="planoEssencialZone">
           <div className="titulo-essencial">
@@ -24,13 +26,6 @@ function Plans() {
               </b>
             </li>
           </ul>
-          <div className="btn-essecial">
-            <a href="https://pagina-dev-zone.vercel.app/">
-              <button>
-                <b>Ver mais</b>
-              </button>
-            </a>
-          </div>
         </div>
         <div className="planoPremiumZone">
           <div className="titulo-premium">
@@ -49,13 +44,6 @@ function Plans() {
               <b className="negrito-premium">Domínio garantido por 60 dias;</b>
             </li>
           </ul>
-          <div className="btn-premium">
-            <a href="https://pagina-dev-zone.vercel.app/">
-              <button>
-                <b>Ver mais</b>
-              </button>
-            </a>
-          </div>
         </div>
         <div className="planoEliteZone">
           <div className="titulo-elite">
@@ -74,13 +62,6 @@ function Plans() {
               <b className="negrito-elite">Domínio garantido por 90 dias;</b>
             </li>
           </ul>
-          <div className="btn-elite">
-            <a href="https://pagina-dev-zone.vercel.app/">
-              <button>
-                <b>Ver mais</b>
-              </button>
-            </a>
-          </div>
         </div>
       </div>
     </div>

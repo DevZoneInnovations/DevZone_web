@@ -14,11 +14,9 @@
 }
 
 .grid-plansExtra {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: "bubble creative";
-  column-gap: 30px;
+  display: flex;
+  justify-content: center;
+  column-gap: 50px;
   padding-bottom: 50px;
   padding-left: 50px;
   padding-right: 50px;
@@ -66,6 +64,8 @@
   color: #ffffff;
   text-align: center;
   padding-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
   font-family: "Kameron", serif;
   font-weight: 400;
   font-style: normal;
@@ -140,6 +140,8 @@
   color: #ffffff;
   text-align: center;
   padding-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
   font-family: "Kameron", serif;
   font-weight: 400;
   font-style: normal;
@@ -190,17 +192,19 @@
   .grid-plansExtra {
     overflow-x: scroll;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "bubble creative";
-    column-gap: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "bubble"
+      "creative";
+    row-gap: 40px;
     padding-bottom: 50px;
     padding-left: 20px;
     padding-right: 20px;
   }
 
   .planoBubbleZone {
-    width: 250px;
+    width: 100%;
   }
 
   .planoBubbleZone ul li {
@@ -209,7 +213,7 @@
   }
 
   .planoCreativeZone {
-    width: 250px;
+    width: 100%;
   }
 
   .planoCreativeZone ul li {
