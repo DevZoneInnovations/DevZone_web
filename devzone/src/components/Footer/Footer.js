@@ -1,4 +1,7 @@
 import "./Footer.css";
+import { AiFillInstagram } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
+import { MdOutgoingMail } from "react-icons/md";
 import gmail from "./o-email.png";
 import linkedin from "./logotipo-do-linkedin.png";
 import instagram from "./instagram.png";
@@ -14,13 +17,13 @@ function Footer() {
           </div>
           <div className="redesSociais">
             <a href="https://mail.google.com/mail/u/1/#inbox?compose=new">
-              <img src={gmail} alt="icone gmail"></img>
+              <MdOutgoingMail />
             </a>
             <a href="https://www.linkedin.com/in/marcosvclementec/">
-              <img src={linkedin} alt="icone linkedin"></img>{" "}
+              <FaLinkedinIn />
             </a>
             <a href="https://www.instagram.com/__devzone/">
-              <img src={instagram} alt="icone instagram"></img>
+              <AiFillInstagram />
             </a>
           </div>
           {/* 
@@ -46,12 +49,6 @@ function Footer() {
             </li>
             <li>
               <a href="#plans">Planos</a>
-            </li>
-            <li>
-              <a href="#plansUpdate">Planos Update</a>
-            </li>
-            <li>
-              <a href="#extra">Planos extras</a>
             </li>
           </ul>
         </div>

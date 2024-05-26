@@ -14,23 +14,21 @@
   grid-area: empresa;
 }
 
-.redesSociais a {
-  text-decoration: none;
+.redesSociais {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.redesSociais a img {
-  margin-left: 60px;
-  padding: 20px;
+.redesSociais svg {
+  height: 32px;
+  width: 32px;
+  color: #b8b8b8;
 }
 
-.cnpj {
-  padding-bottom: 20px;
-  padding-left: 30px;
-  font-family: "Kameron", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 20px;
-  color: #bdbdbd;
+.redesSociais svg:hover {
+  color: #da9653;
 }
 
 .navegação {
@@ -49,13 +47,17 @@
   text-decoration: none;
 }
 
+.navegação ul li a:hover {
+  color: #da9653;
+}
+
 .navegação ul h4 {
   text-align: center;
   font-family: "Kameron", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
-  color: #ffffff;
+  color: #e07a13;
   padding-bottom: 30px;
 }
 
@@ -82,13 +84,17 @@
   color: #cbcbcb;
 }
 
+.parceiros ul li a:hover {
+  color: #da9653;
+}
+
 .parceiros ul {
   list-style: none;
 }
 
 .parceiros ul h4 {
   text-align: center;
-  color: #ffffff;
+  color: #e07a13;
   font-family: "Kameron", serif;
   font-weight: 400;
   font-style: normal;
@@ -117,10 +123,6 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-  }
-
-  .cnpj p {
-    padding-top: 30px;
   }
 
   .redesSociais a img {

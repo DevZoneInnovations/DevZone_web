@@ -3,7 +3,7 @@ import { FaCheck, FaChevronRight } from "react-icons/fa";
 
 function Plans2() {
   return (
-    <div className="plans2">
+    <div className="plans2" id="plans">
       <h1>Planos</h1>
       <div id="princing-table">
         <div className="price-box-container">
@@ -239,22 +239,21 @@ function Plans2() {
               <div className="plan-name-guardian">
                 <strong>Guardian Zone</strong>
                 <span>
-                  Ideal para empresas maiores ou que precisam de um site
-                  altamente personalizado com funcionalidades avançadas. Isso
-                  inclui lojas online com um grande catálogo de produtos, sites
-                  de empresas de médio a grande porte.
+                  Este plano serve para atualizações de sites, ou seja, adição
+                  de paginas ou conteúdos. Pode ser utilizado para sites criados
+                  por nós ou sites criados por fora.
                 </span>
               </div>
               <div className="price-guardian">
                 <div className="pix-guardian">
                   <h4>PIX</h4>
-                  <p>R$ 1390,00</p>
-                  <p>5x R$ 278,00 Sem Juros</p>
+                  <p>R$ 90,00</p>
+                  <p>2x R$ 45,00 Sem Juros</p>
                 </div>
                 <div className="cartao-guardian">
                   <h4>CARTÃO</h4>
-                  <p>R$ 1524,12</p>
-                  <p>5x R$ 304,82 Sem Juros</p>
+                  <p>R$ 106,48</p>
+                  <p>2x R$ 53,24 Sem Juros</p>
                 </div>
                 <div className="features-section-guardian">
                   <div className="feature-box-guardian">
@@ -268,21 +267,9 @@ function Plans2() {
                     <i>
                       <FaCheck />
                     </i>
-                    <span>Suporte técnico por 3 meses após o lançamento;</span>
-                  </div>
-
-                  <div className="feature-box-guardian">
-                    <i>
-                      <FaCheck />
-                    </i>
-                    <span>Desenvolvimento com até 20 paginas;</span>
-                  </div>
-
-                  <div className="feature-box-guardian">
-                    <i>
-                      <FaCheck />
-                    </i>
-                    <span>Design moderno e responsivo;</span>
+                    <span>
+                      Atualizaçoes no sistema de acordo com suas necessidades;
+                    </span>
                   </div>
 
                   <div className="feature-box-guardian">
@@ -290,7 +277,7 @@ function Plans2() {
                       <FaCheck />
                     </i>
                     <span>
-                      Atualizações garantidas por 90 dias após o lançamento;
+                      Suporte técnico adicional de 30 dias após o lançamento;
                     </span>
                   </div>
                 </div>
@@ -315,22 +302,20 @@ function Plans2() {
               <div className="plan-name-bubble">
                 <strong>Bublle Zone</strong>
                 <span>
-                  Ideal para empresas maiores ou que precisam de um site
-                  altamente personalizado com funcionalidades avançadas. Isso
-                  inclui lojas online com um grande catálogo de produtos, sites
-                  de empresas de médio a grande porte.
+                  Este plano serve para a criação de um "LinkMe" personalizado
+                  de sua preferência para as suas redes socias ou sites.
                 </span>
               </div>
               <div className="price-bubble">
                 <div className="pix-bubble">
                   <h4>PIX</h4>
-                  <p>R$ 1390,00</p>
-                  <p>5x R$ 278,00 Sem Juros</p>
+                  <p>R$ 50,00</p>
+                  <p>Sem parcelamentos disponiveis</p>
                 </div>
                 <div className="cartao-bubble">
                   <h4>CARTÃO</h4>
-                  <p>R$ 1524,12</p>
-                  <p>5x R$ 304,82 Sem Juros</p>
+                  <p>R$ 57,41</p>
+                  <p>Sem parcelamentos disponiveis</p>
                 </div>
                 <div className="features-section-bubble">
                   <div className="feature-box-bubble">
@@ -344,21 +329,14 @@ function Plans2() {
                     <i>
                       <FaCheck />
                     </i>
-                    <span>Suporte técnico por 3 meses após o lançamento;</span>
+                    <span>Suporte técnico por 60 dias após o lançamento;</span>
                   </div>
 
                   <div className="feature-box-bubble">
                     <i>
                       <FaCheck />
                     </i>
-                    <span>Desenvolvimento com até 20 paginas;</span>
-                  </div>
-
-                  <div className="feature-box-bubble">
-                    <i>
-                      <FaCheck />
-                    </i>
-                    <span>Design moderno e responsivo;</span>
+                    <span>Design moderno;</span>
                   </div>
 
                   <div className="feature-box-bubble">
@@ -366,7 +344,8 @@ function Plans2() {
                       <FaCheck />
                     </i>
                     <span>
-                      Atualizações garantidas por 90 dias após o lançamento;
+                      LinkMe personalizado do seu jeito para as suas redes
+                      sociais.
                     </span>
                   </div>
                 </div>
@@ -388,29 +367,28 @@ function Plans2() {
               <div className="plan-name-creative">
                 <strong>Creative Zone</strong>
                 <span>
-                  Ideal para empresas maiores ou que precisam de um site
-                  altamente personalizado com funcionalidades avançadas. Isso
-                  inclui lojas online com um grande catálogo de produtos, sites
-                  de empresas de médio a grande porte.
+                  Este plano serve para a criação de 3 logotipos personalizadas
+                  para a sua empresa, sendo uma logotipo apenas do letreiro,
+                  outra apenas da logo e outra com a junção das duas
                 </span>
               </div>
               <div className="price-creative">
                 <div className="pix-creative">
                   <h4>PIX</h4>
-                  <p>R$ 1390,00</p>
-                  <p>5x R$ 278,00 Sem Juros</p>
+                  <p>R$ 45,00</p>
+                  <p>Sem parcelamentos disponiveis</p>
                 </div>
                 <div className="cartao-creative">
                   <h4>CARTÃO</h4>
-                  <p>R$ 1524,12</p>
-                  <p>5x R$ 304,82 Sem Juros</p>
+                  <p>R$ 52,19</p>
+                  <p>Sem parcelamentos disponiveis</p>
                 </div>
                 <div className="features-section-creative">
                   <div className="feature-box-creative">
                     <i>
                       <FaCheck />
                     </i>
-                    <span>Desenvolvimento nas 3 etapas;</span>
+                    <span>Desenvolvimento em 5 etapas;</span>
                   </div>
 
                   <div className="feature-box-creative">
@@ -424,23 +402,14 @@ function Plans2() {
                     <i>
                       <FaCheck />
                     </i>
-                    <span>Desenvolvimento com até 20 paginas;</span>
+                    <span>Design exclusivo e original;</span>
                   </div>
 
                   <div className="feature-box-creative">
                     <i>
                       <FaCheck />
                     </i>
-                    <span>Design moderno e responsivo;</span>
-                  </div>
-
-                  <div className="feature-box-creative">
-                    <i>
-                      <FaCheck />
-                    </i>
-                    <span>
-                      Atualizações garantidas por 90 dias após o lançamento;
-                    </span>
+                    <span>Bônus: vídeo da sua logo;</span>
                   </div>
                 </div>
                 <div className="chose-plan-btn-creative">
