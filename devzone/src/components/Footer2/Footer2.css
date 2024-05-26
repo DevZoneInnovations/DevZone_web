@@ -1,0 +1,23 @@
+.footer2 {
+  background: linear-gradient(0.25turn, #00081cef, #1a2133f0, #262d3ef6);
+}
+
+.footer2 p {
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: "Kameron", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+/*Celulares*/
+@media screen and (max-width: 470px) {
+  .footer2 p {
+    font-size: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
